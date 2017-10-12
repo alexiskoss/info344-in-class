@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>INFO 344</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- jquery -->
+</head>
+
+<body>
+    <div id="nameForm">
+        <form method="GET" id="name-form" action="localhost:4000/hello">
+            Your Name: <input type="text" name="name" id="nameinput"></input>
+        </form>
+        <button type="submit" form="inputname" id="submit" value="submit">Send</button>
+    </div>
+
+    <div id="getName">
+
+    </div>
+
+    <div id="getMemory">
+
+    </div>
+
+    <!-- input to get the user's name
+    send it to localhost:4000/hello?name=...
+
+    every second, request localhost:4000/memory 
+    display Alloc field somewhere on the page -->
+
+    <!-- My Javascript file -->
+    <script src="js/javascript2.js"></script>
+</body>
+</html>
